@@ -9,12 +9,21 @@ public_folder: /uploads
 locale: "pt"
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "static/posts"
+  - name: "services"
+    label: "Serviços"
+    folder: "static/services"
     create: true
     fields:
       - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Corpo", name: "body", widget: "markdown" }
+  - name: "clients"
+    label: "Clientes"
+    folder: "static/clients"
+    create: true
+    fields:
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Nome", name: "title", widget: "string" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Localização": name: "location", widget: "map" }
+      - { label: "Descrição", name: "body", widget: "markdown" }
