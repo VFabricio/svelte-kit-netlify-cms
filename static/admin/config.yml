@@ -1,5 +1,5 @@
 backend:
-  git: git-gateway
+  name: git-gateway
   branch: live
 
 publish_mode: editorial_workflow
