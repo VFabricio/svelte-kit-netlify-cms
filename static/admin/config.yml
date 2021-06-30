@@ -25,5 +25,5 @@ collections:
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Nome", name: "title", widget: "string" }
       - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Localização": name: "location", widget: "map" }
+      - { label: "Localização", name: "location", widget: "map" }
       - { label: "Descrição", name: "body", widget: "markdown" }
